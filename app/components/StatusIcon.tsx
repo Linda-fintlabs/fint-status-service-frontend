@@ -13,10 +13,10 @@ export const StatusIcon = (
 
     if (status) {
         return (
-            <CheckmarkCircleFillIcon title="a11y-title" fontSize="1.5rem"/>
+            <CheckmarkCircleFillIcon title="a11y-title" fontSize="1.5rem" color={"green"}/>
         )
     } else return (
-        <XMarkOctagonFillIcon title="a11y-title" fontSize="1.5rem"/>
+        <XMarkOctagonFillIcon title="a11y-title" fontSize="1.5rem" color={"red"}/>
 
     )
 }
