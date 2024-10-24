@@ -12,8 +12,7 @@ export const meta: MetaFunction = () => {
 export default function Index() {
   return (
       <div style={{display: "flex", flexDirection: "column", alignItems: "center"}}>
-
-          <Heading size={"large"} level={"1"}>Status</Heading>
+          <Heading size={"large"} level={"1"} style={{marginBottom: "2rem"}}>Status</Heading>
         <HGrid gap="6" columns={2}>
           <Box background="surface-subtle"
                borderColor="border-alt-3"

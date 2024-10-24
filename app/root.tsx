@@ -29,7 +29,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
             footer={
               <Box background="surface-neutral-moderate" padding="8" as="footer">
                 <Page.Block gutters width="lg">
-                  Footer
+
                 </Page.Block>
               </Box>
             }
@@ -40,7 +40,6 @@ export function Layout({ children }: { children: React.ReactNode }) {
             </Page.Block>
           </Box>
           <Box
-              background="surface-alt-3-moderate"
               padding="8"
               paddingBlock="16"
               as="main"
